@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>Weather Forecast Dashboard - LSTM Prediction System</title>
+    <meta name="description" content="Advanced weather forecasting dashboard using LSTM neural networks to predict temperature and rainfall patterns across Philippine cities." />
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Custom Styles -->
+    <style>
+      .card-elevation {
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1), 0 8px 16px rgba(0,0,0,0.1);
+      }
+      .card-elevation:hover {
+        box-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 12px 24px rgba(0,0,0,0.15);
+        transition: box-shadow 0.2s ease-in-out;
+      }
+      .upload-zone {
+        transition: all 0.3s ease;
+      }
+      .upload-zone:hover {
+        border-color: #1976D2;
+        background-color: #F3F4F6;
+      }
+      .upload-zone.drag-over {
+        border-color: #1976D2;
+        background-color: #E3F2FD;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- Replit dev banner -->
+    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
+  </body>
+</html>
